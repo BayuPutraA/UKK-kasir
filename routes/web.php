@@ -22,5 +22,9 @@ Route::get('/registration', 'AuthController@registration');
 Route::post('/registration', 'AuthController@postRegistration');
 Route::get('/logout', 'AuthController@logout');
 
+Route::group(['prefix' => 'admin'], function (){
+    
+});
+
 // dashboard user
 Route::get('/dashboard', 'UserController@dashboard');
