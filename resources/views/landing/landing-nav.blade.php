@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-translate">
             <a class="navbar-brand" href="#" rel="tooltip"
-                title="Coded by Creative Tim" data-placement="bottom" target="_blank">
+                title="Skuy Resto - Manage your business" data-placement="bottom" target="_blank">
                 Skuy Resto
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"

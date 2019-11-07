@@ -15,34 +15,95 @@
     <!-- CSS Files -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/paper-kit.css" rel="stylesheet" />
+    
 
 </head>
 
 <body class="landing-page sidebar-collapse">
-    <div class="section section-dark text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Login card -->
-                <div class="card col-md-3 h-60%">
-                    
-                            <div class="icon icon-danger">
-                                    <i class="nc-icon nc-sun-fog-29"></i>
+    
+        <div class="section section-dark text-center bg-dark">
+            <div class="container">
+                <div class="row">
+                    <!-- Login card -->
+                    <div class="col-md-3">
+                        <div class="card card-profile">
+                                <div class="header">                            
+                                        
                                 </div>
-                    
-                        
-                        <div class="card-body">
-                                <h4 class="card-title">John Doe</h4>
-                                <p class="card-text">Some example text.</p>
-                                <a href="#" class="btn btn-outline-success btn-round"><i class=""></i>Start Now</a>
+                                <img class="mx-auto" src="/img/avatar2.png" alt="...">
+                                <div class="card-content">
+                                    <h4 class="card-title">John Doe</h4>
+                                    <p class="card-text">Some example text.</p>
+                                    <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Start Now</a>
+                                </div>
+                                <div class="card-footer">
+                                </div>
                         </div>
                         
+                    </div>
+                    <!-- End Login card -->
+                    <!-- Login card -->
+                    <div class="col-md-3">
+                            <div class="card card-profile">
+                                    <div class="header">                            
+                                            
+                                    </div>
+                                    <img class="mx-auto" src="/img/avatar2.png" alt="...">
+                                    <div class="card-content">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text.</p>
+                                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Start Now</a>
+                                    </div>
+                                    <div class="card-footer">
+                                    </div>
+                            </div>
+                            
+                        </div>
+                        <!-- End Login card -->
+                        <!-- Login card -->
+                    <div class="col-md-3">
+                            <div class="card card-profile">
+                                    <div class="header">                            
+                                            
+                                    </div>
+                                    <img class="mx-auto" src="/img/avatar2.png" alt="...">
+                                    <div class="card-content">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text.</p>
+                                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Start Now</a>
+                                    </div>
+                                    <div class="card-footer">
+                                    </div>
+                            </div>
+                            
+                        </div>
+                        <!-- End Login card -->
+                        <!-- Login card -->
+                    <div class="col-md-3">
+                            <div class="card card-profile">
+                                    <div class="header">                            
+                                            
+                                    </div>
+                                    <img class="mx-auto" src="/img/avatar2.png" alt="...">
+                                    <div class="card-content">
+                                        <h4 class="card-title">John Doe</h4>
+                                        <p class="card-text">Some example text.</p>
+                                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Start Now</a>
+                                    </div>
+                                    <div class="card-footer">
+                                    </div>
+                            </div>
+                            
+                        </div>
+                        <!-- End Login card -->
                     
-                </div>
-                <!-- End Login card -->
+                    
+                    
 
+                </div>
             </div>
-        </div>
     </div>
+
 
 
 

@@ -15,6 +15,8 @@
     <!-- CSS Files -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/paper-kit.css" rel="stylesheet" />
+    <link href="/css/resto-icon.css" rel="stylesheet" />
+    
     
 </head>
 
@@ -53,26 +55,6 @@
     <script src="/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
     <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
     <script src="/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
-    <script>
-        $().ready(function () {
-
-            var $container = $('.masonry-container');
-
-
-            doc_width = $(document).width();
-
-            if (doc_width >= 768) {
-                $container.masonry({
-                    itemSelector: '.card-box',
-                    columnWidth: '.card-box',
-                    transitionDuration: 0
-                });
-            } else {
-                $('.mas-container').removeClass('mas-container').addClass('row');
-            }
-
-        });
-    </script>
 </body>
 
 </html>
