@@ -40,6 +40,9 @@
     <div class="main">
         @include('landing.index')
     </div>
+    <div class="footer footer-white">
+        @include('layouts.footer')
+    </div>
 
 
     <!--   Core JS Files   -->
