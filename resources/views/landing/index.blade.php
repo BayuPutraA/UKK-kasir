@@ -72,84 +72,11 @@
 <!-- End Content keunggulan -->
 
 <!-- Card section -->
-<div class=" section text-center bg-dark">
-    <div class="container">
-        <h2 class="title text-white">Kelola Bisnismu Sekarang!</h2>
-        <div class="row">
-            <!-- Login card -->
-            <div class="col-md-3">
-                <div class="card card-profile">
-                    <div class="card-header">
-                        <img class="mx-auto" src="/img/avatar-1.png" alt="...">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="title">Login sebagai Admin</h4>
-                        <p class="card-text">Atur semua barang dan meja untuk restoranmu</p>
-                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Login Admin</a>
-                    </div>
-                    <div class="card-footer">
-                    </div>
-                </div>
-
-            </div>
-            <!-- End Login card -->
-            <!-- Login card -->
-            <div class="col-md-3">
-                <div class="card card-profile">
-                    <div class="card-header">
-                        <img class="mx-auto" src="/img/avatar-2.png" alt="...">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="title">Login sebagai Waiter</h4>
-                        <p class="card-text">Atur semua pesanan yang ada di menu</p>
-                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Login Waiter</a>
-                    </div>
-                    <div class="card-footer">
-                    </div>
-                </div>
-            </div>
-            <!-- End Login card -->
-            <!-- Login card -->
-            <div class="col-md-3">
-                <div class="card card-profile">
-                    <div class="card-header">
-                        <img class="mx-auto" src="/img/avatar-3.png" alt="...">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="title">Login sebagai Kasir</h4>
-                        <p class="card-text">Kelola semua pembayaran dan keuangan</p>
-                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Login Cashier</a>
-                    </div>
-                    <div class="card-footer">
-                    </div>
-                </div>
-
-            </div>
-            <!-- End Login card -->
-            <!-- Login card -->
-            <div class="col-md-3">
-                <div class="card card-profile">
-                    <div class="card-header">
-                        <img class="mx-auto" src="/img/avatar-4.png" alt="...">
-                    </div>
-                    <div class="card-content">
-                        <h4 class="title">Login sebagai Owner</h4>
-                        <p class="card-text">Lihat dan cetak laporan penjualan kapanpun</p>
-                        <a href="#" class="btn btn-outline-warning btn-round"><i class=""></i>Login Owner</a>
-                    </div>
-                    <div class="card-footer">
-                    </div>
-                </div>
-
-            </div>
-            <!-- End Login card -->
-
-        </div>
-    </div>
-</div>
+@include('auth.login-modal')
 <!-- End Card section -->
+
 <!-- Register section -->
-<div class="section landing-section">
+<div id="register" class="section landing-section">
     <div class="container">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
@@ -183,6 +110,17 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
+                            <label>Username</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="nc-icon nc-badge"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
                             <label>Password</label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
@@ -191,17 +129,6 @@
                                     </span>
                                 </div>
                                 <input type="password" class="form-control" placeholder="Password">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <label>Re-Password</label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text">
-                                        <i class="nc-icon nc-lock-circle-open"></i>
-                                    </span>
-                                </div>
-                                <input type="password" class="form-control" placeholder="Re-Password">
                             </div>
                         </div>
                     </div>

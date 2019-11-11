@@ -16,34 +16,33 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet" />
     <link href="/css/paper-kit.css" rel="stylesheet" />
     <link href="/css/resto-icon.css" rel="stylesheet" />
-    
-    
 </head>
 
 <body class="landing-page sidebar-collapse">
     <!-- Navbar -->
     @include('landing.landing-nav')
     <!-- End Navbar -->
+
     <!-- Paralax -->
-    <div class="page-header" data-parallax="true" style="background-image: url('/img/paralax1.jpg');">
+    <div id="top" class="page-header" data-parallax="true" style="background-image: url('/img/paralax1.jpg');">
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">
                 <h1>Welcome</h1>
                 <h3>Manage your business more easy!</h3>
                 <br />
-                <a href="#" class="btn btn-outline-neutral btn-round"><i class=""></i>Start Now</a>
+                <a href="#register" class="btn btn-outline-neutral btn-round"><i class=""></i>Start Now</a>
             </div>
         </div>
     </div>
     <!-- End Paralax -->
+
     <div class="main">
         @include('landing.index')
     </div>
     <div class="footer footer-white">
         @include('layouts.footer')
     </div>
-
 
     <!--   Core JS Files   -->
     <script src="/js/core/jquery.min.js" type="text/javascript"></script>
@@ -58,6 +57,18 @@
     <script src="/js/plugins/bootstrap-datepicker.js" type="text/javascript"></script>
     <!-- Control Center for Paper Kit: parallax effects, scripts for the example pages etc -->
     <script src="/js/paper-kit.js?v=2.2.0" type="text/javascript"></script>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

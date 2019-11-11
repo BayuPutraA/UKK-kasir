@@ -14,6 +14,10 @@ class AuthController extends Controller
         return view('auth.registration');
     }
 
+    public function Logincheck(){
+        
+    }
+
     public function logout() {
         
     }
